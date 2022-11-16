@@ -1,31 +1,79 @@
-body {
-  background-color: #520c30
-}
-h1 {
-  text-align: center; color: ; font-size: 60px; font-style: italic; color: #ffabab;
-  border: 10px solid black;
-  padding: 1%;
-  margin-left: 20%;
-  margin-right: 20%
+body{
+background-image: url(teste2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }
 
-h2 {
-  text-align: center; font-size: 40px; color: #f26b7a
+header{
+  background-color: white;
 }
-p {
-  text-align: justify; color: #1D94A8; font-size: 30px;
+#logo{
+  width: 10%;
+  margin-left: 15%;
 }
+#banner{
+width: 100%;
+position: relative;
+}
+ul{
+  color: white;
+}
+nav {
+    position: absolute;
+    top: 10px;
+    right:20;
+    margin-left: 45%;
+    font-size: 30px; font-family: monospace;
 
-h3{
-  text-align: justify; color: #4fadb3; font-size: 50px
 }
+nav li {
+    display: inline;
+}
+nav a{
+  text-decoration: none;
+  font-size: 100%;
+}
+.home{
+  margin-top: 10%;
+  text-decoration: none;
+    background-color: #b380cc;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    font-family: arial, sans-serif;
+    position: relative;
+}
+.home:after {
+    content: '';
+    position: absolute;
+    border-bottom: solid 5px white;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    transition: all 500ms;
+}
+.home:hover:after {
+    right: 0;
+}
+em strong {
+    color: #FF0000;
+}
+.aluno1{
+  border-bottom: 20px solid #c1e4ef;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 130%;
+  font-weight: bold;
+  color: #0f1942;
+  margin: 2%
 
-#imagemprincipal{
-  width: 30%;
-  border: 10px solid black
 }
-#fraseprincipal{
-  text-align: center; color: #f26b7a; font-family: cursive;
-    border: 10px solid black
+.aluno1 img{
+  width: 140px!important;
+  height: 140px!important;
 }
-#subtitulo
+.nome{
+    background-color: #c1e4ef;
+  }
